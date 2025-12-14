@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+// this is first practice
 func readInputLines(scanner *bufio.Scanner) ([]string, map[string][]string) {
 	lines := make([]string, 0, 6)           // length = 0, capacity = 6
 	categories := make(map[string][]string) // category: colors list[]
